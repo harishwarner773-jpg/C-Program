@@ -22,4 +22,5 @@ int main(){
     printf("the ID is %d and the salary is %.1f\n",emp[3].ID,emp[3].salary);    
     
     return 0;
+
 }
