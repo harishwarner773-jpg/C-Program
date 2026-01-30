@@ -21,4 +21,5 @@ while(head != NULL){
 }
 printf("NULL");
     return 0;
+
 }
