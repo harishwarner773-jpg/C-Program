@@ -9,7 +9,7 @@ struct address{
     struct student name;
 };
 int main() {
-struct student std = {24,"subi"};
+struct student std = {24,"harish"};
 struct address stud1 = {625526,"theni"};
 struct student *point = &std;
 struct address *point1 = &stud1;
@@ -19,3 +19,4 @@ printf("%d\n",point1->pincode);
 printf("%s\n",point1->cityname);
 
     return 0;
+
