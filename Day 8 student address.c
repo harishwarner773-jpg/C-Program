@@ -9,7 +9,11 @@ struct address{
     struct student name;
 };
 int main() {
+<<<<<<< HEAD
 struct student std = {24,"Harish"};
+=======
+struct student std = {24,"harish"};
+>>>>>>> 6adfbba36468932cbf5e0b214678a0a21b3f13eb
 struct address stud1 = {625526,"theni"};
 struct student *point = &std;
 struct address *point1 = &stud1;
@@ -18,3 +22,4 @@ printf("my ID is %d\n",point->ID);printf("%d\n",point1->pincode);
 printf("%s\n",point1->cityname);
 
     return 0;
+
